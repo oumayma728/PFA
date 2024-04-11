@@ -1,0 +1,59 @@
+#f1 label {
+    width: 450px;
+    margin-top: 5px;
+    padding-top: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: left;
+    display: inline-block;
+}
+#f1 div{
+    margin-bottom: 10px;
+}
+
+#f1 input[type="checkbox"] {
+    width: 100px;
+    padding: 50px;
+    margin-right: 600px;
+    margin-top: -30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#f1 select{
+    width: 450px;
+    margin-top: -15px;
+    padding-bottom: 40px;
+    color:#65B741;
+    margin-left: 500px;
+}
+#f1 p{
+    color: #65B741;
+}
+button {
+    background-color: #f1f9f1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 90px;
+    cursor: pointer;
+    border: #ccc;
+    margin-left: 700px;
+
+}
+
+button:hover {
+    background-color: white;
+}
+#f1{
+    height: 850px;
+    width: 1500px;
+    padding-top: 20px;
+    border-radius: 50px;
+
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+fieldset{
+    width: 1500px;
+}

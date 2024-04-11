@@ -1,0 +1,106 @@
+#f2 {
+        width: 1500px;
+        margin: 50px auto;
+        padding: 10px;
+        margin-left: 0px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        
+    }
+    
+    h1 {
+        text-align: center;
+        margin-bottom:20px;
+        color: #3e8e41;
+    }
+    
+
+    
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group2{
+        margin-bottom: 50px;
+    }
+    select{
+        max-width: 450px;
+        margin-right: 900px;
+    padding-bottom: 20px;
+    color:#65B741;
+    
+    margin-left: 0px;
+    }
+.form-group1 label {
+    margin-left: 40px;
+    display: inline;
+    padding: 8px;
+}
+.form-group1 input {
+    margin-left: 40px;
+    display: inline;
+    padding: 8px;
+}
+
+.form-group2 label{
+    margin-left: 600px;
+    top: 0%;
+}
+.form-group2 input {
+    margin-left: 70px;
+    display: inline;
+    padding: 8px;
+}
+    
+    p {
+        font-size: smaller;
+        margin-top: 5px;
+        color: #3e8e41;
+    }
+    
+    button {
+        background-color: #3e8e41;
+    
+        color: white;
+        padding-right: 30px;
+        padding-left: 25px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 200px;
+    }
+    
+    button:hover {
+        background-color: #416D19;}
+    fieldset {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    .values input,select{
+        margin-bottom: 20px;
+        }
+    .values input[type="radio"] {
+        margin-bottom: 100px;   
+        margin-right: 20px; /* Add spacing between radio buttons */
+        position: absolute;
+        left: 0;
+    }
+    .values label {
+        padding-left: 20px; /* Add space for radio button + margin */
+    }
+    .values p{
+        margin: top 100px;  
+    }
+    .f3{
+        align-items: center;
+        margin: 20px;
+        margin-left: 500px;
+        align-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .f3 select{
+    margin-right: 50px;
+        width: 100%;
+    }

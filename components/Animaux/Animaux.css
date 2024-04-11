@@ -1,0 +1,98 @@
+
+.cards h1{
+    font-size: 25px;
+    color: #416D19;
+}
+.local{
+    width: 25px;
+    height: 25px;
+}
+.bobby,.malih,.fatfeta{
+    width: 200px;
+    height: 200px;
+   
+}
+.card4{
+    margin-left: 500px;
+}
+.card4.button{
+    border: none;
+    height: 50px;
+    width: 150px;
+    color:#416D19;
+    font-size: 16px;
+    background-color:white;
+    margin-top: 10px;
+    margin-left: 200px;
+    border-radius: 20px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.card4.button:hover {
+    background-color: #416D19; /* Green */
+    color: rgb(255, 255, 255);
+}
+.cards {
+    border: none;
+    outline: none;
+    color: #fff;
+    background: white;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+        box-shadow: 5px 5px hsl(0, 0%, 0%,0.1);
+        padding: 30px;
+        margin: 10px;
+        background-color: white;
+        width: 250px;
+        text-align: center;
+        display: inline-block; 
+        margin-left: 150px;
+        height: 350px;
+}
+
+.cards:before {
+    content: '';
+    background: linear-gradient(45deg, #65B741, #0b3901 , #25f400, #31ac0048, #056502, #f8f8f8, #179b00, #195800, #059c00);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.cards:active {
+    color:white
+}
+
+.cards:active:after {
+    background: transparent;
+}
+
+.cards:hover:before {
+    opacity: 1;
+}
+
+.cards:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:white;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+
